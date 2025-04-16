@@ -5,6 +5,7 @@ from selenium.webdriver.firefox.options import Options
 import os
 from time import sleep
 
+
 def automacao(str_url):
     options = Options()
     options.add_argument("--headless")
